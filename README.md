@@ -50,7 +50,7 @@ src/
 
 ## Deployment
 
-The GitHub Actions workflow runs linting and a production build on every push to `main`, then deploys to Vercel through `amondnet/vercel-action`. Configure these repository secrets before the first deployment: `VERCEL_TOKEN`, `VERCEL_ORG_ID`, and `VERCEL_PROJECT_ID`.
+The GitHub Actions workflow runs linting and a production build on every push to `main`, then uses the official Vercel CLI to deploy its prebuilt output. Configure these repository secrets before the first deployment: `VERCEL_TOKEN`, `VERCEL_ORG_ID`, and `VERCEL_PROJECT_ID`.
 
 ## AI assistance
 
